@@ -1,0 +1,13 @@
+.dayweather {
+  height: 100px;
+  width: 100%;
+  border: 1px solid black;
+  background-color: lightblue;
+  color: white;
+}
+
+@media (min-width: 800px) {
+  .dayweather {
+    width: 200px;
+  }
+}

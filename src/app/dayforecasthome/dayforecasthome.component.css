@@ -1,0 +1,10 @@
+.weekforecast {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+@media (min-width: 800px) {
+  .weekforecast {
+    flex-direction: row;
+  }
+}
